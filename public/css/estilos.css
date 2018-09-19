@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	font-family: Roboto;
+	margin:0 auto;
+	padding: 0;
+}
+
+#coment{
+	width: 100%;
+}
+
+#form{
+	background: #f5f5f5;
+	border: solid 1px #eee;
+	border-radius: 10px;
+	max-width: 1000px;
+	padding: 20px;
+	width: 30%;
+}
+
+#form textarea{
+	border-radius: 5px;
+	margin-top: 5px;
+	padding: 10px;
+	resize: none;
+	width: 95%;
+	height: 70px;
+}
+
+#button{
+	background: #048EFA;
+	border: solid 1px #036FC3;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	cursor: pointer;
+	text-align: center;
+	width: 70px;
+}
+
+#button:hover{
+	background: #4AAAF5;
+	border: solid 1px #007BE1;
+	transition: .5s;
+}
+
+#contenedor{
+	margin-top: 15px;
+	border-top: solid 1px #ddd;
+	width: 100%;
+}
+
+#tweet{
+	background: #f5f5f5;
+	border: solid 1px #bbb;
+	border-radius: 5px;
+	margin-top: 20px;
+	max-width: 1000px;
+	padding: 20px;
+	width: 30%;
+}
+
+#cab{
+	margin-left: 10px;
+}
+#cab footer{
+	color: #888;
+	font-size: 13px;
+}
+
+#cab header{
+	font-weight: bold;
+}
+
+#contenido{
+	margin: 20px 0 10px 0;
+}
+
+#user div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#img{
+	background: #000;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
